@@ -1,0 +1,39 @@
+{
+  "name": "react-quickstart",
+  "version": "1.0.0",
+  "description": "Demo to learn React (Facebook)",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel --presets react src --watch --out-dir build",
+    "start": "concurrent \"npm run build\" \"node .\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hckhanh/react-quickstart.git"
+  },
+  "keywords": [
+    "react",
+    "facebook",
+    "learn",
+    "demo"
+  ],
+  "author": "hckhanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hckhanh/react-quickstart/issues"
+  },
+  "homepage": "https://github.com/hckhanh/react-quickstart#readme",
+  "dependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-react": "^6.3.13",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {
+    "lite-server": "^2.0.1",
+    "concurrently": "^1.0.0"
+  }
+}
