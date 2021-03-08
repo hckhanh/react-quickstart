@@ -30,7 +30,7 @@
     "express": "^4.13.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "webpack": "^1.12.12"
+    "webpack": "^2.2.0"
   },
   "devDependencies": {
     "lite-server": "^2.0.1",
